@@ -64,9 +64,9 @@ function copyUrl() {
     document.body.removeChild(tmp);
 
     alert("URL이 복사되었습니다");
-}
+};
 
 shareButton.addEventListener('click', copyUrl);
-openButton.addEventListener("click", openModal);
-closeButton.addEventListener("click", closeModal);
-startButton.addEventListener("click", calculator);
+openButton.addEventListener('click', openModal);
+closeButton.addEventListener('click', closeModal);
+startButton.addEventListener('click', calculator);
